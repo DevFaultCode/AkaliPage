@@ -1,6 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
 }
 
+header, .hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+li a, .hero .text {
+    color: #E5E7EB;
+}
+
+button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+} 
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 20px;
+    padding: 0;
+    gap: 16px;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.logo, .links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Section Hero */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heroo h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.heroo {
+    width: 26%;
+    text-align: left;
+    text-transform: none;
+    position: relative;
+    margin-right: -250px;
+}
+
+.heroo .text {
+    margin-bottom: 8px;
+}
+
+#button1 {
+    border: none;
+}
+
+img {
+    height: 500px;
+    width: auto;
+    margin-bottom: 10%;
+}
