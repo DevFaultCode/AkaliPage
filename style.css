@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root{
+    --darkblue: #1F2937;
+    --lightblue: #3882F6;
+    --white1: #E5E7EB;
+    --white2: #F9FAF8;
+
+}
+
 body {
     height: 100vh;
     margin: 0;
@@ -7,19 +15,19 @@ body {
 }
 
 header, .hero {
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: var(--darkblue);
+    color: var(--white2);
 }
 
 li a, .hero .text {
-    color: #E5E7EB;
+    color: var(--white1);
 }
 
 button {
     padding: 8px 24px;
     border-radius: 8px;
-    background-color: #3882F6;
-    color: #E5E7EB;
+    background-color: var(--lightblue);
+    color: var(--white1);
     font-weight: bold;
 } 
 
@@ -88,4 +96,25 @@ img {
     height: 500px;
     width: auto;
     margin-bottom: 10%;
+}
+
+/* Section akali-pics */
+
+.akali-pics .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.akali-pics img {
+    height: 400px;
+
+}
+
+.akali-pics .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--darkblue);
+    text-align: center;
+    padding: 30px 20px;
 }
