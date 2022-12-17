@@ -90,6 +90,7 @@ li a{
 
 #button1 {
     border: none;
+    cursor: pointer;
 }
 
 img {
@@ -106,6 +107,10 @@ img {
     gap: 52px;
 }
 
+.akali-pics .fruit {
+    margin-bottom: 50px;
+}
+
 .akali-pics img {
     height: 400px;
 
@@ -117,4 +122,73 @@ img {
     color: var(--darkblue);
     text-align: center;
     padding: 30px 20px;
+}
+
+
+
+/* Section quote */
+
+.quote {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white1);
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: light;
+    color: var(--darkblue);
+    margin: 100px 400px;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: var(--darkblue);
+    position: relative;
+    right: -350px;
+    margin-bottom: 100px;
+}
+
+
+/* Section signup */
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signup .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--lightblue);
+    margin: 100px 200px;
+    padding: 50px 80px;
+}
+
+.calltoaction {
+    text-align: left;
+    text-transform: none;
+    position: relative;
+    margin-right: 150px;
+    color: var(--white1);
+}
+
+.signup button {
+    border: 2px solid var(--white1);
+    cursor: pointer;
+}
+
+
+/* Section Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--darkblue);
+    color: var(--white1);
+    padding: 40px 80px;
 }
